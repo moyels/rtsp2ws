@@ -3,7 +3,15 @@
 > 将`RTSP`视频流解析为`WebSocket`形式（转换后视频格式为MPEG1），在前端使用支持`WebSocket`
 > 的播放器[JSMpeg](https://www.npmjs.com/package/@cycjimmy/jsmpeg-player)即可实现web页面播放rtsp视频流
 
-## 使用方式一（未打包为npm包的情况下）
+## 使用方式一（npm引入）
+
+```javascript
+const Rtsp2WsServer = require("rtsp2ws");
+
+new Rtsp2WsServer({ffmpeg: "D:\\pgs\\ffmpeg-master-latest-win64-gpl\\bin\\ffmpeg.exe"}).listen();
+```
+
+## 使用方式二（未打包为npm包的情况下）
 
 ```javascript
 const Rtsp2WsServer = require("./src/utils/Rtsp2WsServer");
