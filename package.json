@@ -1,0 +1,18 @@
+{
+  "name": "rtsp2ws",
+  "version": "0.0.1",
+  "description": "rtsp转换为websocket",
+  "main": "index.js",
+  "author": "moyel",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "ulid": "^2.3.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5"
+  }
+}
