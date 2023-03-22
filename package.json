@@ -1,12 +1,20 @@
 {
   "name": "rtsp2ws",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "rtsp转换为websocket",
   "main": "index.js",
-  "author": "moyel",
+  "author": {
+    "name": "moyel",
+    "email": "1010404561@qq.com",
+    "url": "https://www.moyel.top"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moyels/rtsp2ws"
   },
   "dependencies": {
     "ws": "^8.13.0"
