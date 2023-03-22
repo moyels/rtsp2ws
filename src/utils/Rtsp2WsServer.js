@@ -129,7 +129,6 @@ class Rtsp2WsServer extends EventEmitter {
       });
 
       mpegProcessor.on("error", (error) => {
-        console.log(error.toString());
         that.exitMpegProcessor()
       })
 
